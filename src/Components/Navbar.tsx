@@ -1,7 +1,6 @@
 const Navbar = () => {
   return (
-    // <header className="fixed top-0 left-0 w-full z-50 bg-[#0b1535]/90 backdrop-blur-md border-b border-white/10">
-        <header className="fixed top-0 left-0 w-full z-50 bg-linear-to-b from-[#0b1535]/35 via-[#10204a]/50 to-transparent backdrop-blur-md border-b border-black/1">
+    <header className="fixed top-0 left-0 w-full z-50 bg-linear-to-b from-[#0b1535]/35 via-[#10204a]/50 to-transparent backdrop-blur-md border-b border-black/1">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -17,31 +16,49 @@ const Navbar = () => {
             <div>
               <h1 className="text-white font-bold text-lg leading-none">
                 Crownway Logistics
+                <br />
+                And Packers
               </h1>
-              <p className="text-gray-300 text-xs">
-                Smart Global Shipping
-              </p>
+              <p className="text-gray-300 text-xs">Smart Global Shipping</p>
             </div>
           </div>
 
           {/* Navigation Links */}
           <nav className="hidden lg:flex items-center gap-8 text-sm font-semibold text-white uppercase tracking-wide">
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300"
+            >
               Home
             </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300"
+            >
               Services
             </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+            {/* <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300"
+            >
               About Us
-            </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+            </a> */}
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300"
+            >
               Tracking
             </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300"
+            >
               Careers
             </a>
-            <a href="#" className="hover:text-yellow-400 transition-colors duration-300">
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300"
+            >
               Contact
             </a>
           </nav>
@@ -59,7 +76,7 @@ const Navbar = () => {
         </div>
       </div>
     </header>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
