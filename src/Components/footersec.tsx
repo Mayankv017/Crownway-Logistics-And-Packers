@@ -63,9 +63,14 @@ const FooterSec = () => {
             Contact Info
           </h3>
           <div className="space-y-4 text-gray-300 text-sm">
-            <p>📍 Gurgaon, Haryana, India</p>
+            <p>
+              📍 Plot No. 605, Near Tata Telco, Rangpuri Mahipalpur, New
+              Delhi-110037 <br /> 📍 9-B/12, Goyal Market, Sec 34, Sarai Tilpat Road
+              <br />
+              Faridabad - 121003
+            </p>
             <p>📞 +91 99711 30955</p>
-            <p>📞 +91 70095 96657</p>
+            <p>📞 +91 90131 47354</p>
 
             <p>✉️ support@crownwaylogistics@gmail.com</p>
             <p>⏰ Mon - Sat : 9:00 AM - 7:00 PM</p>
