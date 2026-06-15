@@ -65,7 +65,7 @@ const FooterSec = () => {
           <div className="space-y-4 text-gray-300 text-sm">
             <p>
               📍 Plot No. 605, Near Tata Telco, Rangpuri Mahipalpur, New
-              Delhi-110037 <br /> 
+              Delhi-110037 <br />
               📍 9-B/12, Goyal Market, Sec 34, Sarai Tilpat Road
               <br />
               Faridabad - 121003
@@ -73,8 +73,15 @@ const FooterSec = () => {
             <p>📞 +91 99711 30955</p>
             <p>📞 +91 90131 47354</p>
 
-
-            <p>✉️ crownwaylogisticsandpackers555@gmail.com</p>
+            <p>
+              ✉️{" "}
+              <a
+                href="mailto:crownwaylogisticsandpackers555@gmail.com"
+                className="hover:text-yellow-400 transition"
+              >
+                crownwaylogisticsandpackers555@gmail.com
+              </a>
+            </p>
             <p>⏰ Mon - Sat : 9:00 AM - 7:00 PM</p>
           </div>
         </div>
