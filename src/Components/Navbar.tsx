@@ -42,18 +42,18 @@ const Navbar = () => {
               className="hover:text-yellow-400 transition-colors duration-300"
             >
               About Us
-            </a> */}
-            <a
-              href="#"
-              className="hover:text-yellow-400 transition-colors duration-300"
-            >
-              Tracking
             </a>
             <a
               href="#"
               className="hover:text-yellow-400 transition-colors duration-300"
             >
-              Careers
+              Tracking
+            </a> */}
+            <a
+              href="#"
+              className="hover:text-yellow-400 transition-colors duration-300"
+            >
+              Trip Estimation
             </a>
             <a
               href="#"
